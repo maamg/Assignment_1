@@ -1,106 +1,99 @@
-.heading{
-    margin: 0;
-    padding: 0;
+.Half_Width a{
+    text-decoration: none;
+    padding: 5px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    font-weight:bold;
 }
-
-
-section{
-    padding-top: 5%;
-    padding-bottom: 0%;
-    width: 100%;
-    height: 400px;
+body{
+    width:80%;
+    margin: auto;
 }
-#CombindDiv{
-    width: 100%;
-    margin: 0 auto;
+.clr{
+    clear: both;
 }
-
 .Half_Width{
-    margin-left: 15%;
-    width: 25%;
-    padding-right: 5%;
-    float: left;
-}
-.oneThirdWidth{
-    background-color:whitesmoke;
-    box-shadow: whitesmoke;
-    
-    border-radius: 10px;
-    width: 30%;
-    float: left;
-    margin: 20px;
-    /* padding-left: 100px; */
+    width:40%;
     box-sizing: border-box;
-    text-align: left;
-    
 }
+
+.left{
+    float:left;
+}
+
+.right{
+    float:right;
+}
+
 .Half_Width img{
     width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+.oneThirdWidth{
+    width:33.3%;
+    padding: auto;
+    padding-right: 10px;
+    margin: auto;
+    float:left;
+    box-sizing: border-box;
+}
+
 .oneThirdWidth img{
     width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.A{
-    text-align: center;
-}
-.P{
-    width: 40px;
-}
-#Bebas, h1{
-    
-    font-family: 'Bebas Neue',Sans-serif;
-    font: bold;
-    font-size:xx-large;
-    padding-top: -20px;
 
+.sa2{
+    width: 80%;
+    height: 110px;
+    margin: auto;
+    margin-top: 50px;
+    background-image: url('image111/Group_33094_1.png');
+    background-size: 100% 100%;
+    background-position: center ;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-repeat: no-repeat;
 }
-.mafC{
-    font-family: 'Bebas Neue',Sans-serif;
+
+.inline{
+    display: inline;
 }
-.Head{
-    padding-top: -40px;
-}
-.color1{
-    
-    color: rgba(54, 57, 88, 1) ;
-}
-.color2 {
-    color: rgba(255, 128, 99, 1);
-}
-p{
-    font-family: 'Roboto', sans-serif;
-}
-.Linkk {
-    background-color:rgba(255, 128, 99, 1);
-    color: white;
-    padding: 14px 25px;
+
+.alignC{
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-  }
+}
+
+.P{
+    width:40px;
+}
+
 #workingProject{
-    height: 600px;
-      background-color:rgba(229, 229, 229, 1);
+    text-align: center;
 }
-#inq{
-     height: 200px;
-    width: 800px; 
-    
-    background-image: url(image111/Backgrounddd.png);
-     background-size: 800px,400px; 
-} 
-.c{
-    float: left;
+
+#Bebas{
+    padding-top: 50px;
 }
-#chat{
-    margin-left: 30%;
-    border-radius: 15px;
+
+.sa2 h1{
+    padding-left: 55px;
+    margin-top: 42px;
+    color:white;
 }
-#last{
-    margin-left: 30%;
-    width: 40%;
-    align-self: center;
+
+.sa2 a{
+    margin-top: 42px;
+    color:white;
+    margin-right: 60px;
+    padding: 5px;
+    text-decoration: none;
+    font-weight:bold;
+    border: 2px solid white;
+    border-radius: 8px;
 }
-/* .BCD{
-    float: left;
-} */
